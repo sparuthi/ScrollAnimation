@@ -1,0 +1,111 @@
+
+body, html {
+  height: 100%;
+  background-color: black;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('rbcs.png');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+
+
+h1{
+  position: absolute;
+  font-size: absolute;
+  background-color: red;
+  color: black;
+  text-align: center;
+  top: 0px;
+}
+
+.story{
+  /* background-color: black; */
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+
+}
+
+#start{
+  font-size: 100px;
+}
+
+
+#womb{
+  top: 500px;
+
+}
+
+#baby{
+  top: 1000px;
+  height: 70%;
+  right: -40%;
+  width: 400px;
+}
+
+#boy{
+  top: 1500px;
+  height: 70%;
+  right: -40%;
+  width: 400px;
+
+}
+
+#teen{
+  top:2000px;
+  height: 70%;
+  right: -40%;
+  width: 400px;
+
+}
+
+#man{
+  top: 2500px;
+  height: 70%;
+  right: -40%;
+  width: 400px;
+
+}
+
+#old{
+  top: 3000px;
+  height: 70%;
+  right: -40%;
+  width: 400px;
+
+}
+
+#death{
+  top: 3500px;
+  height: 50%;
+  right: -40%;
+  width: 400px;
+
+}
+
+#atoms{
+  top:4000px;
+  height: 50%;
+  right: -40%;
+  width: 400px;
+
+}
